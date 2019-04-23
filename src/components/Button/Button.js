@@ -18,6 +18,7 @@ export default function Button(props) {
         href={link}
         role="button"
         target={target}
+        rel="noreferrer"
         id={id}
         className={`btn ${color} btn-lg ${displayBlock}`}
         onClick={onClick}
